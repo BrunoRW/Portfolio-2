@@ -1,0 +1,96 @@
+.container-fp{
+    width: 100vw;
+    height: 100vh;
+    background: #ffd7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.container-in-fp{
+    position: relative;
+    width: calc(100% - 80px);
+    padding: 15px 30px;
+    max-width: fit-content;
+}
+
+.name-fp{
+    text-align: center;
+    font-size: 50px;
+    color: #c88dd8;
+    background: #ffd7f6;
+    text-shadow: 0 0 3px #d29be2;
+}
+
+
+/* decoration  */
+
+.ball-fp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    aspect-ratio: 1;
+    width: 20px;
+    box-shadow: inset 0 0 3px 0 #be8bcd;
+    background-color: #c88dd8;
+    opacity: 0;
+}
+
+.ball-fp:nth-child(2){
+    top: 30px;
+    animation: ballFP ease-in-out 2s infinite;
+
+}
+
+.ball-fp:nth-child(3){
+    animation: ballFP ease-in-out 2s .5s infinite;
+
+}
+
+.ball-fp:nth-child(4){
+    left: 30px;
+    animation: ballFP ease-in-out 2s 1s infinite;
+
+}
+
+/* decoration */
+
+.line-fp{
+    position: relative;
+    margin-left: auto;
+    width: 30%;
+    height: 8px;
+}
+
+
+.line-fp-in{
+    position: absolute;
+    height: 100%;
+    background: #c88dd8;
+    border-radius: 50px;
+    opacity: .7;
+    animation: lineFP ease-in-out 1s forwards;
+    box-shadow: inset 0 0 3px 0 #be8bcd;
+}
+
+@keyframes ballFP{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes lineFP{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
