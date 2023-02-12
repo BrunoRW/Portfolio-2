@@ -4,10 +4,10 @@ export default function FirstP(): JSX.Element{
     return(
         <div className="container-fp">
             <div className="container-in-fp">
-                {/* decoration  */}
-                <h1 className="name-fp">Bruno Wotzke</h1>
 
+                <h1 className="name-fp">Bruno Wotzke</h1>
                 {/* decoration */}
+                
                 <div className="ball-fp"></div>
                 <div className="ball-fp"></div>
                 <div className="ball-fp"></div>
@@ -18,6 +18,7 @@ export default function FirstP(): JSX.Element{
                 </div>
             </div>
             
+            {/* <button className="discover-fp">Veja mais</button>  */}
 
             <Wave/>
         </div>

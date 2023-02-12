@@ -1,7 +1,28 @@
 .container-sp{
     width: 100vw;
-    height: 80vh;
+    min-height: 80vh;
     background: white;
-    position: relative;
+    position: absolute;
+}
+
+.container-in-sp{
+    width: calc(100% - 20px);
+    max-width: 600px;
+    height: 20px;
+    margin: 30px auto;
+}
+
+.about-title-sp{
+    color: #c591d3;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about-text-sp{
+    color: gray;
+    text-align: center;
+    line-height: 25px;
+    max-width: 450px;
+    margin: auto;
 }
 

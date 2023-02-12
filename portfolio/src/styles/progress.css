@@ -1,0 +1,10 @@
+#progress{
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    width: calc(100% - 10px);
+    height: 5px;
+    background: white;
+    transform: translateX(-50%);
+    border-radius: 50px;
+}
