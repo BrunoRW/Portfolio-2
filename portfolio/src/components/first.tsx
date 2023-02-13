@@ -1,7 +1,8 @@
 import Wave from "./wave"
 
 export default function FirstP(): JSX.Element{
-    return(
+
+    return( 
         <div className="container-fp">
             <div className="container-in-fp">
 
