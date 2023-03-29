@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+@import "_variables.scss";
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: Alata, sans-serif;
+  list-style: none;
+  border: none;
+}
+
+body{
+  background: $default;
+  min-height: 100svh;
+}
