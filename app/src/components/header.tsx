@@ -3,10 +3,10 @@ export default function Header(){
         <header>
             <button id="logo">&lt;BrunoWotzke/&gt;</button>
             <div className="bts-header">
-                <button className="bt-header">Home</button>
-                <button className="bt-header">Habilities</button>
-                <button className="bt-header">Profile</button>
-                <button className="bt-header">School</button>
+                <a href="#" className="bt-header">Home</a>
+                <a href="#" className="bt-header">Habilities</a>
+                <a href="#" className="bt-header">Profile</a>
+                <a href="#" className="bt-header">School</a>
                 <button id="theme"></button>
             </div>
         </header>

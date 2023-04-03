@@ -10,9 +10,12 @@ header{
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
+    background: $defaultop;
+    backdrop-filter: blur(5px);
+    z-index: 10;
 }
 #logo{
-    font-size: 18px;
+    font-size: 20px;
     background: none;
     color: $blue;
 }
@@ -27,7 +30,7 @@ header{
     border-radius: 50px;
     font-size: 14px;
     background: $blue;
-    color: $color;
+    color: white;
     transition: all .3s;
     cursor: pointer;
     &:hover{
@@ -41,6 +44,10 @@ header{
     transition: all .3s;
     margin: 0 8px;
     border-radius: 50%;
+    background-image: url("https://media.licdn.com/dms/image/D4D03AQEC5i-f-zvBVw/profile-displayphoto-shrink_400_400/0/1678599874941?e=1686182400&v=beta&t=vq5ibhQR46-I8sCFG4sN5hB_3VW450oIM81rv6U87KM");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     &:hover{
         background: darken($blue, 5%);
     }
